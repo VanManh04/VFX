@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Unlit_NewUnlitShader
-  m_Shader: {fileID: 4800000, guid: 346559128a53ef740bb2d75aaa777143, type: 3}
+  m_Name: Hidden_NewImageEffectShader
+  m_Shader: {fileID: 4800000, guid: 8fc5d22e51002384289d4e489a0726a5, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -29,9 +29,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _LightWidth: 0.326
-    - _Slider: 1
-    - _Threshold: 1
-    - _Time: 0
-    m_Colors: []
+    - _Brightness: 0.48
+    - _CornerRadius: 0.362
+    - _EdgeSmooth: 0.001
+    - _Glossiness: 15.7
+    - _Progress: 0.373
+    - _Width: 0.183
+    m_Colors:
+    - _ShineColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
