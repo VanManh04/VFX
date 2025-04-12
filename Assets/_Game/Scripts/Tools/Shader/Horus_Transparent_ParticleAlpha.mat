@@ -29,10 +29,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Boost: 10
+    - _Boost: 2.44
     - _Clip: 0
     - _Cull: 0
     - _EnableFog: 0
+    - _InvFade: 3
     - _Pull: 0
     - _UseLerpColor: 0
     m_Colors:
