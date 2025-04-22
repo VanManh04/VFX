@@ -31,12 +31,7 @@ public class AnimationBaker : MonoBehaviour
 
     private void Awake()
     {
-        _animationCacheData.DecompressData();
-        _transformAccessArray = new TransformAccessArray(_objectsToRecord.ToArray());
-        _objectCount          = _objectsToRecord.Count;
-        _frameCount           = _animationCacheData.FrameCount;
-
-        //GameLoop.Add(() => Process(Time.deltaTime), 4);
+        
     }
 
     private void FixedUpdate()
@@ -126,6 +121,20 @@ public class AnimationBaker : MonoBehaviour
         _animationCacheData.SaveData();
     }
 
+    [Button]
+    [UsedImplicitly]
+    public void SetupData()
+    {
+        _animationCacheData.RLE_Unzip();
+        _animationCacheData.DecompressData();
+        _transformAccessArray = new TransformAccessArray(_objectsToRecord.ToArray());
+        _objectCount          = _objectsToRecord.Count;
+        _frameCount           = _animationCacheData.FrameCount;
+
+        //GameLoop.Add(() => Process(Time.deltaTime), 4);
+    }
+    
+    
     [Button]
     [UsedImplicitly]
     public void StartPlay()
