@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf31c7f5a70c06942986a8bdf34c1ef4, type: 3}
+  m_Name: GlobalShader
+  m_EditorClassIdentifier: 
+  SpriteRenderShader: {fileID: 4800000, guid: 0d32e805d8810c54bbb5c37fa75d126e, type: 3}
+  SimpleModeUIShader: {fileID: 4800000, guid: a71d7892f360ae248affae17e6e5fbc5, type: 3}
+  Nice_SliceModeUIShader: {fileID: 4800000, guid: 0e62fae1010a2dc4faf89049e627aed8,
+    type: 3}
+  TileModeUIShader: {fileID: 4800000, guid: 8b7895522d32aa049a7b0214e905266d, type: 3}
+  FillModeUIShader: {fileID: 4800000, guid: ed18757231a4e3e4d90d3d92514111bc, type: 3}
+  BorderModeUIShader: {fileID: 4800000, guid: 152e514c3d729424d9ee2b5656f0e3f4, type: 3}
+  UnlitVertexCrossfade: {fileID: 4800000, guid: eaae6bbaa14295248bc5f94aa17576be,
+    type: 3}
+  UnlitVertexAnimation: {fileID: 4800000, guid: 1c3ddf24d91672f42a131c3ed487d032,
+    type: 3}
+  SpriteRenderMaterial: {fileID: 2100000, guid: 900f177d994369943917c2dc4db94734,
+    type: 2}
